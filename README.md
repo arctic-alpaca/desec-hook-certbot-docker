@@ -3,6 +3,11 @@ A (unofficial) docker container to automatically renew certificates with the des
 
 ## Usage
 
+### Notes
+**PLEASE BE AWARE THAT A COMPROMISED, VALID DESEC.IO TOKEN CAN PUT YOUR DOMAINS AT RISK. HARDCODING A TOKEN LIKE IN THIS CONTAINER ISN'T RECOMMENDED UNTIL [SCOPED TOKENS](https://github.com/desec-io/desec-stack/issues/347) ARE FULLY IMPLEMENTED!**
+
+I'm using this container to get a wildcard certificate with a raspberry pi in my local network. Don't deploy this container directly to the internet.
+
 ### Build
 
 Clone this repo and inside the project folder: 
