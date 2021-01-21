@@ -50,7 +50,7 @@ Note, the email doesn't need to be the same domain. You can use gmail or whateve
 
 ## More info
 
-* [desec.io](desec.io)
+* [desec.io](https://desec.io)
 * [desec.io certbot hook](https://github.com/desec-io/desec-certbot-hook)
 * [desec.io how to use the certbot hook](https://desec.readthedocs.io/en/latest/dyndns/lets-encrypt.html)
 * [Let's Encrypt](https://letsencrypt.org)
