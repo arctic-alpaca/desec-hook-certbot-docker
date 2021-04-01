@@ -3,6 +3,7 @@ FROM alpine:3.12
 RUN apk --no-cache update && \
     apk --no-cache upgrade && \
     apk --no-cache add \
+        curl \
         certbot \
         tzdata \
         bash

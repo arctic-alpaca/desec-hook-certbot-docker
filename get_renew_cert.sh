@@ -16,5 +16,6 @@ certbot --manual \
     --preferred-challenges dns \
     --manual-auth-hook /hook.sh \
     --manual-cleanup-hook /hook.sh \
+    --manual-public-ip-logging-ok \
     ${domains[@]} \
     certonly
