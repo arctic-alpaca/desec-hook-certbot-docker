@@ -1,3 +1,5 @@
+# :warning: The dedyn.io certbot hook has been archived in favor of the [certbot plugin](https://pypi.org/project/certbot-dns-desec/). This repo was based on the cerbot hook and should no longer be used. :warning:
+
 # desec-hook-certbot-docker
 A (unofficial) docker container to automatically renew certificates with the desec.io certbot hook via dns challenge.
 
